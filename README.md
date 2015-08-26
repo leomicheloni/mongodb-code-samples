@@ -40,3 +40,7 @@ db.coleccion.find()
 ````
 db.coleccion.insert({a: "valor", b: "valor"});
 ````
+#Consultar una colección usando un filtro
+
+`````
+db.coleccion.find({a: 'valor'});
