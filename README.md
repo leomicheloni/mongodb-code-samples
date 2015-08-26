@@ -45,3 +45,12 @@ db.coleccion.insert({a: "valor", b: "valor"});
 
 `````
 db.coleccion.find({a: 'valor'});
+````
+
+- Recuperar un elemento y modificarlo
+
+````
+var i = db.collection.findOne();
+i.prop = "value";
+db.collection.save(i);
+````
