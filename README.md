@@ -32,5 +32,11 @@ show collections
 ###Mostrar todos los elementos dentro de una colección
 
 ````
-coleccion.find()
+db.coleccion.find()
+````
+
+###Inserta un objeto en una colección
+
+````
+db.coleccion.insert({a: "valor", b: "valor"});
 ````
