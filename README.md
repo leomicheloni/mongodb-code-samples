@@ -54,3 +54,9 @@ var i = db.collection.findOne();
 i.prop = "value";
 db.collection.save(i);
 ````
+
+- Contar ocurrencias en una colección
+
+`````
+db.coleccion.count({a: "algo"});
+````
