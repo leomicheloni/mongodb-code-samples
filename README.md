@@ -60,3 +60,7 @@ db.collection.save(i);
 `````
 db.coleccion.count({a: "algo"});
 ````
+
+- Video introductorio
+
+[https://www.youtube.com/watch?v=OsbXZ-qa_u0](https://www.youtube.com/watch?v=OsbXZ-qa_u0)
